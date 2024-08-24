@@ -1,0 +1,60 @@
+{
+  "menu": [
+    { "id": 1, "name": "home", "link": "#" },
+    { "id": 2, "name": "about", "link": "https://www.google.com" },
+    { "id": 3, "name": "contact", "link": "https://www.google.com" },
+    { "id": 4, "name": "gallery", "link": "https://www.google.com" }
+  ],
+  "slider": [
+    {
+      "id": 1,
+      "image": "./public/images/pro-img.jpg",
+      "alt": "laptop-1"
+    },
+    {
+      "id": 2,
+      "image": "./public/images/pro-img-2.jpg",
+      "alt": "laptop-2"
+    },
+    {
+      "id": 3,
+      "image": "./public/images/pro-img-3.jpg",
+      "alt": "laptop-3"
+    },
+    {
+      "id": 4,
+      "image": "./public/images/pro-img-4.jpg",
+      "alt": "laptop-4"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "laptop-1",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia natus similique nisi itaque perferendis quisquam quo?  Quisquam, maxime! Dolores praesentium consequatur qui nam modi adipisci, illo rem quarepellat!",
+      "image": "./public/images/pro-img-2.jpg",
+      "alt": "laptop-1"
+    },
+    {
+      "id": 2,
+      "title": "laptop-2",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia natus similique nisi itaque perferendis quisquam quo?  Quisquam, maxime! Dolores praesentium consequatur qui nam modi adipisci, illo rem quarepellat!",
+      "image": "./public/images/pro-img-3.jpg",
+      "alt": "laptop-2"
+    },
+    {
+      "id": 3,
+      "title": "laptop-3",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia natus similique nisi itaque perferendis quisquam quo?  Quisquam, maxime! Dolores praesentium consequatur qui nam modi adipisci, illo rem quarepellat!",
+      "image": "./public/images/pro-img-4.jpg",
+      "alt": "laptop-3"
+    },
+    {
+      "id": 4,
+      "title": "laptop-4",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quia natus similique nisi itaque perferendis quisquam quo?  Quisquam, maxime! Dolores praesentium consequatur qui nam modi adipisci, illo rem quarepellat!",
+      "image": "./public/images/pro-img.jpg",
+      "alt": "laptop-4"
+    }
+  ]
+}
