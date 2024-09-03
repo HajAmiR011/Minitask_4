@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       height: {
-        fullPage: "calc(100vh - 40px)",
+        fullPage: "calc(100vh - 125px)",
       },
     },
   },

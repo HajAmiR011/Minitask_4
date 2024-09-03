@@ -1,6 +1,7 @@
 import fetchMenu from "./component/menu/menu";
 import fetchSlider from "./component/slider/slider";
 import fetchProduct from "./component/products/product";
+import fetchAmazing from "./component/amazing/amazing";
 function initSlider() {
   const progressCircle = document.querySelector(".autoplay-progress svg");
   const progressContent = document.querySelector(".autoplay-progress span");
@@ -26,10 +27,23 @@ function initSlider() {
     },
   });
 }
+
+let amazingInit = () => {
+  var swiper = new Swiper(".myAmazing", {
+    slidesPerView: 7.5,
+    spaceBetween: 8,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+};
 async function allData() {
   await fetchMenu();
   await fetchSlider();
   await fetchProduct();
+  await fetchAmazing();
   initSlider();
+  amazingInit();
 }
 allData();
